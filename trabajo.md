@@ -79,10 +79,10 @@ classDiagrama
         + void agregarCliente(Cliente*)
         + void mostrarInfo()
     }
-    AgenciaRenta o-- Auto:
-    AgenciaRenta o-- Cliente:
-    Contrato "1" -- "1" Cliente : asocia
-    Contrato "1" -- "1" Auto : asocia
+    AgenciaRenta o-- Auto: agregacion
+    AgenciaRenta o-- Cliente: composicion
+    Contrato o--  Contrato : agregacion
+    Contrato  o-- Contrato : agregacion
 
 ```    
 
