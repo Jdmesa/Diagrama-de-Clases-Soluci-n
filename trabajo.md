@@ -39,7 +39,7 @@ classDiagram
 #Solución 2
 
 ```mermaid
-classDiagrama
+classDiagram
     class Auto{
         -string placa
         -string modelo
@@ -79,11 +79,8 @@ classDiagrama
         + void agregarCliente(Cliente*)
         + void mostrarInfo()
     }
-    AgenciaRenta o-- Auto: agregacion
-    AgenciaRenta o-- Cliente: composicion
-    Contrato o--  Contrato : agregacion
-    Contrato  o-- Contrato : agregacion
+AgenciaRenta o-- Auto: agregacion
+AgenciaRenta o-- Cliente: composicion
 
-```    
-
+```
     
