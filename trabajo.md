@@ -80,7 +80,9 @@ classDiagram
         + void mostrarInfo()
     }
 AgenciaRenta o-- Auto: agregacion
-AgenciaRenta o-- Cliente: composicion
+AgenciaRenta o-- Cliente: agregacion
+Contrato o-- Cliente: agregacion
+Contrato o-- Auto: agregacion
 
 ```
     
